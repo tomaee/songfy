@@ -89,3 +89,107 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
+2023.08.08 16:35:51 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\tomas\Documents\GitHub\songfy' for client Visual Studio Code 1.81.0.
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.20.1 by Redgate
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\tomas\Documents\GitHub\songfy\.metals\metals (H2 2.1)
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.017s)
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": 4
+ago 08, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.08 16:35:52 INFO  time: initialize in 0.68s
+2023.08.08 16:35:52 WARN  Build server is not auto-connectable.
+2023.08.08 16:36:01 INFO  running 'C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tomas\AppData\Local\Temp\metals4278905992307381768\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.08.08 16:36:01 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.2  (this may take some time)...
+2023.08.08 16:36:12 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2023.08.08 16:36:15 INFO  [info] welcome to sbt 1.9.2 (AdoptOpenJDK Java 1.8.0_292)
+2023.08.08 16:36:16 INFO  [info] loading settings for project songfy-build-build from metals.sbt ...
+2023.08.08 16:36:16 INFO  [info] loading project definition from C:\Users\tomas\Documents\GitHub\songfy\project\project
+2023.08.08 16:36:20 INFO  [info] loading settings for project songfy-build from metals.sbt ...
+2023.08.08 16:36:20 INFO  [info] loading project definition from C:\Users\tomas\Documents\GitHub\songfy\project
+2023.08.08 16:36:25 INFO  [warn] sbt-bloop_2.12_1.0-1.5.8-sources.jar no longer exists at \home\gabriel\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.5.8\sbt-bloop_2.12_1.0-1.5.8-sources.jar
+2023.08.08 16:36:30 INFO  [success] Generated .bloop\songfy-build.json
+2023.08.08 16:36:31 INFO  [success] Total time: 11 s, completed 08/08/2023 16:36:31
+2023.08.08 16:36:33 INFO  [info] loading settings for project songfy from build.sbt ...
+2023.08.08 16:36:33 INFO  [info] set current project to songfy (in build file:/C:/Users/tomas/Documents/GitHub/songfy/)
+2023.08.08 16:36:36 INFO  [success] Generated .bloop\songfy.json
+2023.08.08 16:36:36 INFO  [success] Generated .bloop\songfy-test.json
+2023.08.08 16:36:36 INFO  [success] Total time: 3 s, completed 08/08/2023 16:36:36
+2023.08.08 16:36:36 INFO  time: ran 'sbt bloopInstall' in 35s
+2023.08.08 16:36:36 INFO  Attempting to connect to the build server...
+2023.08.08 16:36:36 INFO  Setting up current java home C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 in C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:36:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:36:56 INFO  Attempting to connect to the build server...
+2023.08.08 16:36:56 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:36:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:36:56 INFO  time: Connected to build server in 20s
+2023.08.08 16:36:56 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 16:36:57 INFO  time: Imported build in 0.1s
+2023.08.08 16:37:06 INFO  time: indexed workspace in 8.91s
+2023.08.08 16:37:41 INFO  compiling songfy (11 scala sources)
+2023.08.08 16:37:54 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.08 16:37:55 INFO  time: compiled songfy in 14s
+2023.08.08 16:38:36 INFO  Disconnecting from Bloop session...
+2023.08.08 16:38:36 INFO  Shut down connection with build server.
+2023.08.08 16:38:36 INFO  Shut down connection with build server.
+2023.08.08 16:38:36 INFO  Attempting to connect to the build server...
+2023.08.08 16:38:36 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:38:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:38:37 INFO  Attempting to connect to the build server...
+2023.08.08 16:38:37 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:38:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:38:37 INFO  time: Connected to build server in 68ms
+2023.08.08 16:38:37 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 16:38:36 INFO  time: indexed workspace in 0.63s
+2023.08.08 16:39:09 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:41:26 INFO  compilation cancelled
+2023.08.08 16:41:26 INFO  compilation cancelled
+2023.08.08 16:41:26 INFO  compilation cancelled
+2023.08.08 16:41:28 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:41:28 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:41:28 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:41:28 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:41:48 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:42:21 INFO  Disconnecting from Bloop session...
+2023.08.08 16:42:21 INFO  Shut down connection with build server.
+2023.08.08 16:42:21 INFO  Shut down connection with build server.
+2023.08.08 16:42:21 INFO  Attempting to connect to the build server...
+2023.08.08 16:42:21 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:42:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:42:21 INFO  Attempting to connect to the build server...
+2023.08.08 16:42:21 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 16:42:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 16:42:21 INFO  time: Connected to build server in 69ms
+2023.08.08 16:42:21 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 16:42:21 INFO  time: indexed workspace in 0.54s
+2023.08.08 16:42:21 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:42:22 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:45:06 INFO  time: code lens generation in 1.87s
+2023.08.08 16:45:06 INFO  time: code lens generation in 5.7s
+ago 08, 2023 4:50:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 277
+2023.08.08 16:57:32 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 16:57:33 INFO  compilation cancelled
+2023.08.08 16:57:33 INFO  Cancelling compilation on Bloop server
+2023.08.08 16:57:33 INFO  compilation cancelled
+2023.08.08 16:57:33 INFO  compilation cancelled
+2023.08.08 16:57:33 INFO  compilation cancelled
+2023.08.08 16:57:33 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:36 INFO  compilation cancelled
+2023.08.08 16:57:37 INFO  compilation cancelled
+2023.08.08 16:57:57 INFO  compiling songfy (11 scala sources)
+2023.08.08 16:57:58 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.08 16:57:58 INFO  time: compiled songfy in 1.61s

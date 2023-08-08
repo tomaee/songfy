@@ -1,4 +1,4 @@
 [debug] [songfy-build] Classpath dependencies List()
 [debug] [songfy-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'songfy-build' to '/home/gabriel/projects/musify-scala/songfy/project/.bloop/songfy-build.json'
-[success] Generated .bloop/songfy-build.json
+[debug] Bloop wrote the configuration of project 'songfy-build' to 'C:\Users\tomas\Documents\GitHub\songfy\project\.bloop\songfy-build.json'
+[success] Generated .bloop\songfy-build.json

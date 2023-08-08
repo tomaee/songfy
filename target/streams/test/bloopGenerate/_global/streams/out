@@ -1,0 +1,4 @@
+[debug] [songfy-test] Classpath dependencies List()
+[debug] [songfy-test] Dependencies from configurations List(songfy)
+[debug] Bloop wrote the configuration of project 'songfy-test' to 'C:\Users\tomas\Documents\GitHub\songfy\.bloop\songfy-test.json'
+[success] Generated .bloop\songfy-test.json

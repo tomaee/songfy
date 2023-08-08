@@ -1,0 +1,6 @@
+#FileLock
+#Tue Aug 08 16:35:52 BRT 2023
+hostName=localhost
+id=189d6a605b66d3a435002b7c55755c165ef0e98017f
+method=file
+server=localhost\:57587
