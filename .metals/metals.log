@@ -1,0 +1,91 @@
+2023.08.08 16:27:57 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\tomas\Desktop\songfy' for client Visual Studio Code 1.81.0.
+ago 08, 2023 4:27:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.20.1 by Redgate
+ago 08, 2023 4:27:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+ago 08, 2023 4:27:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\tomas\Desktop\songfy\.metals\metals (H2 2.1)
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMAÇÕES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.045s)
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMAÇÕES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": << Empty Schema >>
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "1 - Create tables"
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+ago 08, 2023 4:27:58 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.016s)
+2023.08.08 16:27:58 INFO  time: initialize in 1.07s
+2023.08.08 16:27:59 WARN  Build server is not auto-connectable.
+2023.08.08 16:27:59 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:28:03 INFO  no build target found for C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.08 16:28:05 INFO  time: code lens generation in 4.97s
+2023.08.08 16:29:53 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:29:56 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:29:57 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:30:53 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:31:00 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:01 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Note.scala
+2023.08.08 16:31:01 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:31:02 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:13 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\BeatsPerMinute.scala
+2023.08.08 16:31:15 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Note.scala
+2023.08.08 16:31:16 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\PatternBuilder.scala
+2023.08.08 16:31:16 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Tutorial.scala
+2023.08.08 16:31:17 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:31:18 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:18 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+ago 08, 2023 4:31:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 112
+2023.08.08 16:31:51 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:54 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:54 WARN  Using indexes to guess the definition of octave
+2023.08.08 16:31:54 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:55 WARN  Using indexes to guess the definition of octave
+ago 08, 2023 4:31:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 146
+2023.08.08 16:31:54 WARN  Using indexes to guess the definition of octave
+2023.08.08 16:31:55 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:31:54 WARN  Using indexes to guess the definition of octave
+2023.08.08 16:32:31 INFO  compilation cancelled
+2023.08.08 16:32:31 INFO  compilation cancelled
+2023.08.08 16:32:33 WARN  Build server is not auto-connectable.
+2023.08.08 16:32:33 WARN  Build server is not auto-connectable.
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Octave.scala
+2023.08.08 16:32:52 WARN  no build target for: C:\Users\tomas\Desktop\songfy\src\main\scala\Main.scala
+2023.08.08 16:33:58 INFO  Shutting down server
+2023.08.08 16:33:58 INFO  shutting down Metals
+2023.08.08 16:33:58 INFO  Exiting server
+2023.08.08 16:33:58 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
