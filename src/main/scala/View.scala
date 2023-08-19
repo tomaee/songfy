@@ -1,4 +1,5 @@
 import scala.swing._
+import scala.swing.event._
 
 class View extends MainFrame {
   val builder = new PatternBuilder
@@ -7,6 +8,12 @@ class View extends MainFrame {
     lineWrap = true
     wordWrap = true
   }
+  listenTo(textArea.keys)
+  reactions += {
+    case KeyPressed(_,c,_,_) => 
+      playLastChar()
+  }
+  
   val informationArea = new TextArea(){
     columns = 20
     lineWrap = true
@@ -53,10 +60,18 @@ class View extends MainFrame {
       contents += Button("Play"){ playSong() }
     }, BorderPanel.Position.South)
   }
+  
 
   def playSong() {
     val pattern = builder.build(textArea.text)
+      
+    player.play(pattern)
+  }
 
+  def playLastChar() {
+    val lastChar =  textArea.text.takeRight(1)
+
+    val pattern = builder.build(lastChar)
     player.play(pattern)
   }
 

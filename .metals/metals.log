@@ -193,3 +193,2049 @@ ADVERTÊNCIA: Unmatched cancel notification for request id 277
 2023.08.08 16:57:57 INFO  compiling songfy (11 scala sources)
 2023.08.08 16:57:58 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
 2023.08.08 16:57:58 INFO  time: compiled songfy in 1.61s
+2023.08.08 17:28:59 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:28:59 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:00 INFO  compilation cancelled
+2023.08.08 17:29:00 INFO  Cancelling compilation on Bloop server
+2023.08.08 17:29:00 INFO  compilation cancelled
+2023.08.08 17:29:02 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:02 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:13 INFO  compilation cancelled
+2023.08.08 17:29:25 INFO  Disconnecting from Bloop session...
+2023.08.08 17:29:25 INFO  Shut down connection with build server.
+2023.08.08 17:29:25 INFO  Shut down connection with build server.
+2023.08.08 17:29:25 ERROR Error while deleting directories inside .bloop
+java.io.UncheckedIOException: java.nio.file.NoSuchFileException: C:\Users\tomas\Documents\GitHub\songfy\.bloop\songfy\bloop-bsp-clients-classes\classes-Metals-s1QAQ4ThQiWR0kdcEi9CFw==\META-INF\semanticdb
+	at java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:88)
+	at java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:104)
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:295)
+	at java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:207)
+	at java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:170)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:301)
+	at java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at scala.collection.convert.JavaCollectionWrappers$JIteratorWrapper.hasNext(JavaCollectionWrappers.scala:41)
+	at geny.Generator$SelfClosing.generate(Generator.scala:228)
+	at geny.Generator$Mapped.generate(Generator.scala:283)
+	at geny.Generator$Filtered.generate(Generator.scala:276)
+	at geny.Generator.foreach(Generator.scala:49)
+	at geny.Generator.foreach$(Generator.scala:49)
+	at geny.Generator$Filtered.foreach(Generator.scala:274)
+	at geny.Generator.toBuffer(Generator.scala:127)
+	at geny.Generator.toBuffer$(Generator.scala:125)
+	at geny.Generator$Filtered.toBuffer(Generator.scala:274)
+	at geny.Generator.toList(Generator.scala:133)
+	at geny.Generator.toList$(Generator.scala:133)
+	at geny.Generator$Filtered.toList(Generator.scala:274)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.deleteRecursively(MetalsEnrichments.scala:532)
+	at scala.meta.internal.metals.BloopDir$.$anonfun$clear$1(BloopDir.scala:10)
+	at scala.meta.internal.metals.BloopDir$.$anonfun$clear$1$adapted(BloopDir.scala:9)
+	at geny.Generator.$anonfun$foreach$1(Generator.scala:50)
+	at geny.Generator$Mapped.$anonfun$generate$4(Generator.scala:283)
+	at geny.Generator$SelfClosing.generate(Generator.scala:229)
+	at geny.Generator$Mapped.generate(Generator.scala:283)
+	at geny.Generator.foreach(Generator.scala:49)
+	at geny.Generator.foreach$(Generator.scala:49)
+	at geny.Generator$Mapped.foreach(Generator.scala:281)
+	at scala.meta.internal.metals.BloopDir$.clear(BloopDir.scala:9)
+	at scala.meta.internal.metals.MetalsLspService.clearBloopDir(MetalsLspService.scala:2579)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$resetWorkspace$1(MetalsLspService.scala:2593)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$resetWorkspace$1$adapted(MetalsLspService.scala:2592)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\tomas\Documents\GitHub\songfy\.bloop\songfy\bloop-bsp-clients-classes\classes-Metals-s1QAQ4ThQiWR0kdcEi9CFw==\META-INF\semanticdb
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:518)
+	at java.nio.file.Files.newDirectoryStream(Files.java:457)
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300)
+	at java.nio.file.FileTreeWalker.next(FileTreeWalker.java:372)
+	at java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:84)
+	at java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:104)
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:295)
+	at java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:207)
+	at java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:170)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:301)
+	at java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at scala.collection.convert.JavaCollectionWrappers$JIteratorWrapper.hasNext(JavaCollectionWrappers.scala:41)
+	at geny.Generator$SelfClosing.generate(Generator.scala:228)
+	at geny.Generator$Mapped.generate(Generator.scala:283)
+	at geny.Generator$Filtered.generate(Generator.scala:276)
+	at geny.Generator.foreach(Generator.scala:49)
+	at geny.Generator.foreach$(Generator.scala:49)
+	at geny.Generator$Filtered.foreach(Generator.scala:274)
+	at geny.Generator.toBuffer(Generator.scala:127)
+	at geny.Generator.toBuffer$(Generator.scala:125)
+	at geny.Generator$Filtered.toBuffer(Generator.scala:274)
+	at geny.Generator.toList(Generator.scala:133)
+	at geny.Generator.toList$(Generator.scala:133)
+	at geny.Generator$Filtered.toList(Generator.scala:274)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.deleteRecursively(MetalsEnrichments.scala:532)
+	at scala.meta.internal.metals.BloopDir$.$anonfun$clear$1(BloopDir.scala:10)
+	at scala.meta.internal.metals.BloopDir$.$anonfun$clear$1$adapted(BloopDir.scala:9)
+	at geny.Generator.$anonfun$foreach$1(Generator.scala:50)
+	at geny.Generator$Mapped.$anonfun$generate$4(Generator.scala:283)
+	at geny.Generator$SelfClosing.generate(Generator.scala:229)
+	at geny.Generator$Mapped.generate(Generator.scala:283)
+	at geny.Generator.foreach(Generator.scala:49)
+	at geny.Generator.foreach$(Generator.scala:49)
+	at geny.Generator$Mapped.foreach(Generator.scala:281)
+	at scala.meta.internal.metals.BloopDir$.clear(BloopDir.scala:9)
+	at scala.meta.internal.metals.MetalsLspService.clearBloopDir(MetalsLspService.scala:2579)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$resetWorkspace$1(MetalsLspService.scala:2593)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$resetWorkspace$1$adapted(MetalsLspService.scala:2592)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.08.08 17:29:25 INFO  Attempting to connect to the build server...
+2023.08.08 17:29:25 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:29:32 INFO  Attempting to connect to the build server...
+2023.08.08 17:29:32 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:29:32 INFO  time: Connected to build server in 6.55s
+2023.08.08 17:29:32 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 17:29:33 INFO  time: indexed workspace in 0.73s
+2023.08.08 17:29:33 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:33 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 1.316s)
+2023.08.08 17:29:33 INFO  compiling songfy (11 scala sources)
+2023.08.08 17:29:33 INFO  compiling songfy (11 scala sources)
+2023.08.08 17:29:38 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.08 17:29:38 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.08 17:29:38 INFO  time: compiled songfy in 4.66s
+2023.08.08 17:29:51 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:51 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:51 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:29:51 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:30:06 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:30:15 INFO  compiling songfy (11 scala sources)
+2023.08.08 17:30:17 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.08 17:30:17 INFO  time: compiled songfy in 1.55s
+2023.08.08 17:34:34 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:34:35 INFO  Disconnecting from Bloop session...
+2023.08.08 17:34:35 INFO  Shut down connection with build server.
+2023.08.08 17:34:35 INFO  Attempting to connect to the build server...
+2023.08.08 17:34:35 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:34:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:34:35 INFO  Shut down connection with build server.
+2023.08.08 17:34:35 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+ago 08, 2023 5:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFORMAÇÕES: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:284)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(SocketChannelImpl.java:269)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:460)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.08.08 17:34:35 INFO  Cancelling compilation on Bloop server
+2023.08.08 17:34:35 INFO  Attempting to connect to the build server...
+2023.08.08 17:34:35 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:34:35 INFO  Attempting to connect to the build server...
+2023.08.08 17:34:35 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:34:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:34:35 INFO  Attempting to connect to the build server...
+2023.08.08 17:34:35 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.08 17:34:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:34:35 INFO  time: Connected to build server in 75ms
+2023.08.08 17:34:35 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 17:34:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 17:34:36 INFO  time: Connected to build server in 64ms
+2023.08.08 17:34:36 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.08 17:34:35 INFO  time: indexed workspace in 0.12s
+2023.08.08 17:34:36 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.08 17:34:36 INFO  time: indexed workspace in 0.64s
+2023.08.08 17:34:36 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+error: C:\Users\tomas\Documents\GitHub\songfy\.metals\.tmp\.metals\.tmp\Main-5438837057654760300.scala is not a file
+2023.08.08 18:17:23 INFO  Shutting down server
+2023.08.08 18:17:23 INFO  shutting down Metals
+2023.08.08 18:17:23 INFO  Shut down connection with build server.
+2023.08.08 18:17:23 INFO  Shut down connection with build server.
+2023.08.08 18:17:23 INFO  Exiting server
+2023.08.19 15:31:35 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\tomas\Documents\GitHub\songfy' for client Visual Studio Code 1.81.1.
+ago 19, 2023 3:31:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.20.1 by Redgate
+ago 19, 2023 3:31:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+ago 19, 2023 3:31:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+ago 19, 2023 3:31:36 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\tomas\Documents\GitHub\songfy\.metals\metals (H2 2.1)
+ago 19, 2023 3:31:36 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.028s)
+ago 19, 2023 3:31:36 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": 4
+ago 19, 2023 3:31:36 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.19 15:31:36 INFO  time: initialize in 1.4s
+2023.08.19 15:31:38 INFO  Attempting to connect to the build server...
+2023.08.19 15:31:38 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 15:31:56 INFO  no build target found for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.19 15:31:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 15:31:57 INFO  Attempting to connect to the build server...
+2023.08.19 15:31:57 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 15:31:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 15:31:57 INFO  time: Connected to build server in 19s
+2023.08.19 15:31:57 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 15:31:58 INFO  time: Imported build in 1.19s
+2023.08.19 15:32:00 INFO  time: code lens generation in 21s
+2023.08.19 15:32:00 INFO  no build target found for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.19 15:32:00 INFO  time: code lens generation in 3.84s
+2023.08.19 15:32:14 INFO  time: indexed workspace in 15s
+Exception in thread "pool-5-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.08.19 15:38:39 WARN  Using indexes to guess the definition of doc
+2023.08.19 15:47:04 WARN  Using indexes to guess the definition of field
+ago 19, 2023 3:50:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/System.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 27 more
+
+ago 19, 2023 3:50:46 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:50:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:51:04 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:51:04 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 3:51:04 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.08.19 15:51:14 INFO  compiling songfy (1 scala source)
+2023.08.19 15:51:16 INFO  time: compiled songfy in 1.93s
+2023.08.19 15:51:16 INFO  compiling songfy (1 scala source)
+2023.08.19 15:51:16 INFO  time: compiled songfy in 0.22s
+2023.08.19 15:51:30 INFO  compiling songfy (1 scala source)
+2023.08.19 15:51:30 INFO  time: compiled songfy in 0.13s
+ago 19, 2023 3:53:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Exception in thread "pool-5-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-5-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+ago 19, 2023 4:01:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:07 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:07 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:08 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:08 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:08 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:08 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:08 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.08.19 16:01:09 INFO  compiling songfy (1 scala source)
+2023.08.19 16:01:09 INFO  time: compiled songfy in 0.12s
+2023.08.19 16:01:13 INFO  compiling songfy (1 scala source)
+2023.08.19 16:01:13 INFO  time: compiled songfy in 0.12s
+ago 19, 2023 4:01:15 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2023 4:01:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1065
+ago 19, 2023 4:01:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.08.19 16:01:25 INFO  compiling songfy (1 scala source)
+2023.08.19 16:01:25 INFO  time: compiled songfy in 0.22s
+2023.08.19 16:01:48 INFO  compiling songfy (1 scala source)
+2023.08.19 16:01:48 INFO  time: compiled songfy in 0.2s
+ago 19, 2023 4:05:41 PM scala.meta.internal.pc.completions.Completions completionPosition
+GRAVE: init of empty list
+java.lang.UnsupportedOperationException: init of empty list
+	at scala.collection.immutable.Nil$.init(List.scala:666)
+	at scala.collection.immutable.Nil$.init(List.scala:661)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:64)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:518)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:445)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:437)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:419)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:473)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:163)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.08.19 16:05:57 INFO  compiling songfy (1 scala source)
+2023.08.19 16:05:57 INFO  time: compiled songfy in 0.21s
+2023.08.19 16:10:03 INFO  compiling songfy (1 scala source)
+2023.08.19 16:10:03 INFO  time: compiled songfy in 0.18s
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped() => playLastChar()
+         ^^^^^^^^^^
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped() => playLastChar()
+         ^^^^^^^^^^
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:10:43 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:10:45 INFO  compiling songfy (1 scala source)
+2023.08.19 16:10:45 INFO  time: compiled songfy in 0.17s
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:10:53 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: wrong number of arguments for pattern scala.swing.event.KeyTyped(source: scala.swing.Component, char: Char, modifiers: scala.swing.event.Key.Modifiers, location: scala.swing.event.Key.Location.Value)
+    case KeyTyped('a') => playLastChar()
+         ^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:11:00 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:11:03 INFO  compiling songfy (1 scala source)
+2023.08.19 16:11:03 INFO  time: compiled songfy in 0.17s
+2023.08.19 16:11:07 INFO  compiling songfy (1 scala source)
+2023.08.19 16:11:07 INFO  time: compiled songfy in 0.16s
+2023.08.19 16:11:09 WARN  Using indexes to guess the definition of playLastChar
+2023.08.19 16:11:10 INFO  compiling songfy (1 scala source)
+2023.08.19 16:11:10 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:12:54 INFO  compiling songfy (1 scala source)
+2023.08.19 16:12:54 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:12:55 WARN  Using indexes to guess the definition of textArea
+2023.08.19 16:13:22 INFO  compiling songfy (1 scala source)
+2023.08.19 16:13:22 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: pattern type is incompatible with expected type;
+ found   : scala.swing.event.KeyTyped.type
+ required: scala.swing.event.Event
+Note: if you intended to match against the class, try `case KeyTyped(_,_,_,_)`
+    case KeyTyped => playLastChar()
+         ^^^^^^^^
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:10: stale bloop error: pattern type is incompatible with expected type;
+ found   : scala.swing.event.KeyTyped.type
+ required: scala.swing.event.Event
+Note: if you intended to match against the class, try `case KeyTyped(_,_,_,_)`
+    case KeyTyped => playLastChar()
+         ^^^^^^^^
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:13:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:13:37 INFO  compiling songfy (1 scala source)
+2023.08.19 16:13:37 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:13:51 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:13:51 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:13:51 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:19: stale bloop error: value getText is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                  ^^^^^^^^^^^^^^^^
+2023.08.19 16:13:51 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:69:36: stale bloop error: value getLength is not a member of scala.swing.TextArea
+   var lastChar = textArea.getText(textArea.getLength() - 1, 1);
+                                   ^^^^^^^^^^^^^^^^^^
+2023.08.19 16:16:22 INFO  compiling songfy (1 scala source)
+2023.08.19 16:16:22 INFO  time: compiled songfy in 0.14s
+2023.08.19 16:16:55 INFO  compiling songfy (1 scala source)
+2023.08.19 16:16:55 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:17:32 INFO  compiling songfy (1 scala source)
+2023.08.19 16:17:32 INFO  time: compiled songfy in 0.14s
+2023.08.19 16:17:43 INFO  compiling songfy (1 scala source)
+2023.08.19 16:17:43 INFO  time: compiled songfy in 0.13s
+2023.08.19 16:18:12 INFO  compiling songfy (1 scala source)
+2023.08.19 16:18:12 INFO  time: compiled songfy in 0.14s
+2023.08.19 16:18:19 INFO  compiling songfy (1 scala source)
+2023.08.19 16:18:19 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 46m 22.302s)
+2023.08.19 16:18:19 INFO  compiling songfy (1 scala source)
+2023.08.19 16:18:19 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:22:03 INFO  compiling songfy (1 scala source)
+2023.08.19 16:22:03 INFO  time: compiled songfy in 98ms
+ago 19, 2023 4:22:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2085
+2023.08.19 16:22:18 INFO  compiling songfy (1 scala source)
+2023.08.19 16:22:18 INFO  time: compiled songfy in 0.18s
+2023.08.19 16:22:22 INFO  compiling songfy (1 scala source)
+2023.08.19 16:22:22 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:22:24 INFO  compiling songfy (1 scala source)
+2023.08.19 16:22:24 INFO  time: compiled songfy in 0.17s
+2023.08.19 16:22:52 INFO  compiling songfy (1 scala source)
+ago 19, 2023 4:22:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/String.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 27 more
+
+2023.08.19 16:22:52 INFO  time: compiled songfy in 0.17s
+2023.08.19 16:23:13 INFO  compiling songfy (1 scala source)
+2023.08.19 16:23:13 INFO  time: compiled songfy in 0.14s
+2023.08.19 16:23:15 INFO  compiling songfy (1 scala source)
+2023.08.19 16:23:15 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:23:17 INFO  compiling songfy (1 scala source)
+2023.08.19 16:23:17 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:23:28 INFO  compiling songfy (1 scala source)
+2023.08.19 16:23:28 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:23:30 INFO  compiling songfy (1 scala source)
+2023.08.19 16:23:30 INFO  time: compiled songfy in 0.14s
+ago 19, 2023 4:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/String.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 27 more
+
+ago 19, 2023 4:23:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/String.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 26 more
+
+2023.08.19 16:24:16 INFO  compiling songfy (1 scala source)
+2023.08.19 16:24:16 INFO  time: compiled songfy in 0.2s
+2023.08.19 16:25:14 WARN  Using indexes to guess the definition of textArea
+2023.08.19 16:25:14 WARN  Using indexes to guess the definition of textArea
+2023.08.19 16:25:43 INFO  compiling songfy (1 scala source)
+2023.08.19 16:25:43 INFO  time: compiled songfy in 0.12s
+2023.08.19 16:25:57 WARN  Using indexes to guess the definition of textArea
+2023.08.19 16:25:58 INFO  compiling songfy (1 scala source)
+2023.08.19 16:25:58 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:26:00 INFO  compiling songfy (1 scala source)
+2023.08.19 16:26:00 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:26:42 INFO  compiling songfy (1 scala source)
+2023.08.19 16:26:42 INFO  time: compiled songfy in 0.11s
+ago 19, 2023 4:26:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2879
+2023.08.19 16:26:56 INFO  compiling songfy (1 scala source)
+2023.08.19 16:26:56 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:27:33 INFO  compiling songfy (1 scala source)
+2023.08.19 16:27:33 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:27:52 INFO  compiling songfy (1 scala source)
+2023.08.19 16:27:52 INFO  time: compiled songfy in 0.12s
+2023.08.19 16:27:57 INFO  compiling songfy (1 scala source)
+2023.08.19 16:27:57 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:31:55 INFO  compiling songfy (1 scala source)
+2023.08.19 16:31:57 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:31:57 INFO  time: compiled songfy in 2.13s
+ago 19, 2023 4:32:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:910)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:369)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:340)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:474)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.08.19 16:33:41 INFO  compiling songfy (1 scala source)
+2023.08.19 16:33:41 INFO  time: compiled songfy in 0.13s
+2023.08.19 16:33:47 INFO  compiling songfy (1 scala source)
+2023.08.19 16:33:47 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:33:49 INFO  compiling songfy (1 scala source)
+2023.08.19 16:33:49 INFO  time: compiled songfy in 0.11s
+2023.08.19 16:34:08 INFO  compiling songfy (1 scala source)
+2023.08.19 16:34:08 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:08 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:08 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:14:3: stale bloop error: ')' expected but '}' found.
+  }
+  ^
+2023.08.19 16:34:08 INFO  time: compiled songfy in 76ms
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:14:3: stale bloop error: ')' expected but '}' found.
+  }
+  ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:14:3: stale bloop error: ')' expected but '}' found.
+  }
+  ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:14:3: stale bloop error: ')' expected but '}' found.
+  }
+  ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:21: stale bloop error: empty character literal
+    case KeyTyped(_,'',_,_) => playLastChar()
+                    ^
+2023.08.19 16:34:09 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:14:3: stale bloop error: ')' expected but '}' found.
+  }
+  ^
+2023.08.19 16:34:10 INFO  compiling songfy (1 scala source)
+2023.08.19 16:34:10 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:34:10 INFO  time: compiled songfy in 0.86s
+2023.08.19 16:39:54 INFO  compiling songfy (1 scala source)
+2023.08.19 16:39:54 INFO  time: compiled songfy in 83ms
+2023.08.19 16:40:02 INFO  compiling songfy (1 scala source)
+2023.08.19 16:40:02 INFO  time: compiled songfy in 71ms
+2023.08.19 16:40:07 INFO  compiling songfy (1 scala source)
+2023.08.19 16:40:07 INFO  time: compiled songfy in 74ms
+2023.08.19 16:40:09 INFO  compiling songfy (1 scala source)
+2023.08.19 16:40:09 INFO  time: compiled songfy in 77ms
+2023.08.19 16:40:11 INFO  compiling songfy (1 scala source)
+2023.08.19 16:40:11 INFO  time: compiled songfy in 72ms
+ago 19, 2023 4:40:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMAÇÕES: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.08.19 16:40:44 INFO  compiling songfy (1 scala source)
+2023.08.19 16:40:44 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:40:44 INFO  time: compiled songfy in 0.98s
+2023.08.19 16:40:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\dap-server.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.08.19 16:40:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\dap-client.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.08.19 16:40:57 INFO  Starting debug proxy for [Main]
+2023.08.19 16:41:00 INFO  Loaded expression compiler in 1 second
+2023.08.19 16:41:03 INFO  Loaded all sources and classes in 2 seconds
+2023.08.19 16:41:03 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53345 .
+2023.08.19 16:41:03 INFO  Attaching to debuggee VM succeeded.
+2023.08.19 16:41:27 INFO  Canceling debug proxy for [Main]
+2023.08.19 16:41:27 INFO  Closing debug server tcp://0.0.0.0:53342
+2023.08.19 16:42:33 INFO  compiling songfy (1 scala source)
+2023.08.19 16:42:33 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:42:33 INFO  time: compiled songfy in 0.94s
+Exception in thread "pool-5-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+ago 19, 2023 4:44:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 4507
+2023.08.19 16:44:16 INFO  compiling songfy (1 scala source)
+2023.08.19 16:44:16 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:44:16 INFO  time: compiled songfy in 0.8s
+2023.08.19 16:45:59 INFO  compiling songfy (1 scala source)
+2023.08.19 16:45:59 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 16:45:59 INFO  time: compiled songfy in 0.77s
+ago 19, 2023 4:46:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:910)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:369)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:340)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:474)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.08.19 16:46:53 INFO  Disconnecting from Bloop session...
+2023.08.19 16:46:53 INFO  Shut down connection with build server.
+2023.08.19 16:46:53 INFO  Shut down connection with build server.
+2023.08.19 16:46:53 INFO  Attempting to connect to the build server...
+2023.08.19 16:46:53 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:46:53 INFO  Attempting to connect to the build server...
+2023.08.19 16:46:53 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:46:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:46:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:46:58 INFO  Attempting to connect to the build server...
+2023.08.19 16:46:58 INFO  Attempting to connect to the build server...
+2023.08.19 16:46:58 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:46:58 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:46:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:46:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:46:58 INFO  time: Connected to build server in 5.24s
+2023.08.19 16:46:59 INFO  time: Connected to build server in 5.33s
+2023.08.19 16:46:59 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:46:58 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:46:59 INFO  time: Imported build in 0.13s
+2023.08.19 16:46:59 INFO  time: indexed workspace in 0.8s
+2023.08.19 16:46:59 INFO  time: indexed workspace in 0.82s
+2023.08.19 16:48:32 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 1m 33.954s)
+ago 19, 2023 4:48:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:914)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:697)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:658)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.util.Success.foreach(Try.scala:260)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:481)
+	... 3 more
+
+2023.08.19 16:48:36 INFO  Shutting down server
+2023.08.19 16:48:36 INFO  shutting down Metals
+2023.08.19 16:48:36 INFO  Shut down connection with build server.
+2023.08.19 16:48:36 INFO  Shut down connection with build server.
+2023.08.19 16:48:36 INFO  Exiting server
+2023.08.19 16:48:41 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\tomas\Documents\GitHub\songfy' for client Visual Studio Code 1.81.1.
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.20.1 by Redgate
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\tomas\Documents\GitHub\songfy\.metals\metals (H2 2.1)
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.017s)
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": 4
+ago 19, 2023 4:48:41 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.19 16:48:42 INFO  time: initialize in 0.62s
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Attempting to connect to the build server...
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:48:42 INFO  time: Connected to build server in 0.32s
+2023.08.19 16:48:42 INFO  time: Connected to build server in 0.31s
+2023.08.19 16:48:42 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:48:42 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:48:42 INFO  time: Connected to build server in 0.32s
+2023.08.19 16:48:42 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:48:44 INFO  no build target found for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.19 16:48:44 INFO  time: code lens generation in 1.52s
+2023.08.19 16:48:44 INFO  time: indexed workspace in 0.58s
+2023.08.19 16:48:45 INFO  time: indexed workspace in 1.5s
+2023.08.19 16:48:45 INFO  time: indexed workspace in 1.5s
+2023.08.19 16:48:47 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 4.375s)
+2023.08.19 16:48:48 INFO  running 'C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tomas\AppData\Local\Temp\metals7771514661413625462\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+error: C:\Users\tomas\Documents\GitHub\songfy\.metals\.tmp\.metals\.tmp\Main2844975783851687076.scala is not a file
+error: C:\Users\tomas\Documents\GitHub\songfy\.metals\.tmp\.metals\.tmp\Main-3135020191126733008.scala is not a file
+2023.08.19 16:48:54 INFO  [info] welcome to sbt 1.9.2 (AdoptOpenJDK Java 1.8.0_292)
+2023.08.19 16:48:54 INFO  [info] loading settings for project songfy-build-build from metals.sbt ...
+2023.08.19 16:48:56 INFO  [info] loading project definition from C:\Users\tomas\Documents\GitHub\songfy\project\project
+2023.08.19 16:48:57 INFO  [info] loading settings for project songfy-build from metals.sbt ...
+2023.08.19 16:48:57 INFO  [info] loading project definition from C:\Users\tomas\Documents\GitHub\songfy\project
+2023.08.19 16:49:00 INFO  [success] Generated .bloop\songfy-build.json
+2023.08.19 16:49:00 INFO  [success] Total time: 3 s, completed 19/08/2023 16:49:00
+2023.08.19 16:49:00 INFO  [info] loading settings for project songfy from build.sbt ...
+2023.08.19 16:49:00 INFO  [info] set current project to songfy (in build file:/C:/Users/tomas/Documents/GitHub/songfy/)
+2023.08.19 16:49:01 INFO  [success] Generated .bloop\songfy.json
+2023.08.19 16:49:01 INFO  [success] Generated .bloop\songfy-test.json
+2023.08.19 16:49:01 INFO  [success] Total time: 0 s, completed 19/08/2023 16:49:01
+2023.08.19 16:49:01 INFO  time: ran 'sbt bloopInstall' in 13s
+2023.08.19 16:49:01 INFO  Disconnecting from Bloop session...
+2023.08.19 16:49:01 INFO  Shut down connection with build server.
+2023.08.19 16:49:01 INFO  Shut down connection with build server.
+2023.08.19 16:49:01 INFO  Attempting to connect to the build server...
+2023.08.19 16:49:01 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:49:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:49:01 INFO  Attempting to connect to the build server...
+2023.08.19 16:49:01 INFO  Bloop uses C:\Users\tomas\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\tomas\.bloop\bloop.json
+2023.08.19 16:49:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tomas\Documents\GitHub\songfy\project\.metals\bsp.trace.json or C:\Users\tomas\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.19 16:49:01 INFO  time: Connected to build server in 81ms
+2023.08.19 16:49:01 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.19 16:49:01 INFO  time: indexed workspace in 0.57s
+ago 19, 2023 4:50:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 51
+2023.08.19 16:53:16 INFO  compiling songfy (1 scala source)
+2023.08.19 16:53:18 INFO  time: compiled songfy in 1.67s
+2023.08.19 16:53:20 INFO  compiling songfy (1 scala source)
+2023.08.19 16:53:20 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 4m 18.71s)
+2023.08.19 16:53:20 INFO  compiling songfy (1 scala source)
+2023.08.19 16:53:20 INFO  time: compiled songfy in 67ms
+2023.08.19 16:53:22 INFO  compiling songfy (1 scala source)
+2023.08.19 16:53:22 INFO  time: compiled songfy in 0.23s
+2023.08.19 16:53:24 INFO  compiling songfy (1 scala source)
+2023.08.19 16:53:24 INFO  time: compiled songfy in 0.19s
+2023.08.19 16:55:35 INFO  compiling songfy (1 scala source)
+2023.08.19 16:55:35 INFO  time: compiled songfy in 0.19s
+2023.08.19 16:55:54 INFO  compiling songfy (1 scala source)
+2023.08.19 16:55:54 INFO  time: compiled songfy in 0.18s
+2023.08.19 16:56:45 WARN  Using indexes to guess the definition of mouse
+2023.08.19 16:56:48 INFO  compiling songfy (1 scala source)
+2023.08.19 16:56:48 INFO  time: compiled songfy in 0.15s
+2023.08.19 16:58:32 INFO  compiling songfy (1 scala source)
+2023.08.19 16:58:32 INFO  time: compiled songfy in 0.15s
+2023.08.19 17:02:37 INFO  compiling songfy (1 scala source)
+2023.08.19 17:02:37 INFO  time: compiled songfy in 0.18s
+2023.08.19 17:03:55 INFO  compiling songfy (1 scala source)
+2023.08.19 17:03:55 INFO  time: compiled songfy in 0.14s
+2023.08.19 17:03:56 INFO  compiling songfy (1 scala source)
+2023.08.19 17:03:56 INFO  time: compiled songfy in 0.18s
+2023.08.19 17:03:56 INFO  compiling songfy (1 scala source)
+2023.08.19 17:03:58 INFO  time: compiled songfy in 88ms
+2023.08.19 17:03:59 INFO  compiling songfy (1 scala source)
+2023.08.19 17:03:59 INFO  time: compiled songfy in 0.16s
+2023.08.19 17:04:01 INFO  compiling songfy (1 scala source)
+2023.08.19 17:04:01 INFO  time: compiled songfy in 0.14s
+2023.08.19 17:04:03 INFO  compiling songfy (1 scala source)
+2023.08.19 17:04:05 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:04:05 INFO  time: compiled songfy in 1.84s
+2023.08.19 17:06:38 INFO  compiling songfy (1 scala source)
+2023.08.19 17:06:38 INFO  time: compiled songfy in 0.16s
+2023.08.19 17:06:38 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:41 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:44 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:45 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:47 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:48 INFO  compiling songfy (1 scala source)
+2023.08.19 17:06:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:48 INFO  time: compiled songfy in 0.16s
+2023.08.19 17:06:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:49 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:50 INFO  compiling songfy (1 scala source)
+2023.08.19 17:06:50 INFO  time: compiled songfy in 0.16s
+2023.08.19 17:06:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:53 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:54 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:55 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:56 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:57 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:58 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:58 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:06:59 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:01 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:05 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:05 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:07 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:08 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:09 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:09 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:07:18 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:27 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:30 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:33 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:3: stale bloop error: value addKeyListener is not a member of scala.swing.TextArea
+  textArea.addKeyListener(this);
+  ^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.19 17:08:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:16: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.swing.Reactions.Reaction
+    (which expands to)  PartialFunction[scala.swing.event.Event,Unit]
+> {
+>     /*case KeyTyped(_,c,_,_) => 
+>       if(c <= 32 && 126 >= c){
+>         playLastChar(c)
+>       }*/
+>   }
+2023.08.19 17:08:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:13:3: stale bloop error: value addKeyListener is not a member of scala.swing.TextArea
+  textArea.addKeyListener(this);
+  ^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.19 17:08:34 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:16: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.swing.Reactions.Reaction
+    (which expands to)  PartialFunction[scala.swing.event.Event,Unit]
+> {
+>     /*case KeyTyped(_,c,_,_) => 
+>       if(c <= 32 && 126 >= c){
+>         playLastChar(c)
+>       }*/
+>   }
+2023.08.19 17:08:34 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:35 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:37 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:42 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+ago 19, 2023 5:08:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 649
+2023.08.19 17:08:51 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:51 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:51 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:51 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:52 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:52 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:53 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:55 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:55 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:55 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:58 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:59 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:59 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:09:00 WARN  Using indexes to guess the definition of KeyTyped
+2023.08.19 17:09:00 INFO  compiling songfy (1 scala source)
+2023.08.19 17:08:59 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:08:59 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:09:00 WARN  Using indexes to guess the definition of KeyTyped
+2023.08.19 17:09:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:09:00 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:09:00 INFO  time: compiled songfy in 0.96s
+2023.08.19 17:09:25 INFO  compiling songfy (1 scala source)
+2023.08.19 17:09:25 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:09:25 INFO  time: compiled songfy in 0.86s
+2023.08.19 17:10:10 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:10 INFO  time: compiled songfy in 96ms
+2023.08.19 17:10:14 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:3: stale bloop error: Unmatched closing brace '}' ignored here
+  }
+  ^
+2023.08.19 17:10:14 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:3: stale bloop error: Unmatched closing brace '}' ignored here
+  }
+  ^
+2023.08.19 17:10:24 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:3: stale bloop error: Unmatched closing brace '}' ignored here
+  }
+  ^
+2023.08.19 17:10:24 INFO  file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala:62:3: stale bloop error: Unmatched closing brace '}' ignored here
+  }
+  ^
+ago 19, 2023 5:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 995
+2023.08.19 17:10:39 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:39 INFO  time: compiled songfy in 0.13s
+2023.08.19 17:10:42 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:42 INFO  time: compiled songfy in 0.14s
+2023.08.19 17:10:47 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:47 INFO  time: compiled songfy in 0.14s
+2023.08.19 17:10:50 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:50 INFO  time: compiled songfy in 0.13s
+2023.08.19 17:10:56 INFO  compiling songfy (1 scala source)
+2023.08.19 17:10:56 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:10:56 INFO  time: compiled songfy in 0.78s
+ago 19, 2023 5:11:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:910)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:369)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:340)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:474)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.08.19 17:11:33 INFO  compiling songfy (1 scala source)
+Exception in thread "pool-6-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.08.19 17:11:33 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 22m 31.523s)
+2023.08.19 17:11:33 INFO  compiling songfy (1 scala source)
+2023.08.19 17:11:33 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:11:33 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:11:33 INFO  time: compiled songfy in 0.66s
+2023.08.19 17:12:25 INFO  compiling songfy (1 scala source)
+2023.08.19 17:12:25 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:12:25 INFO  time: compiled songfy in 0.91s
+2023.08.19 17:12:58 WARN  no build target for: C:\Users\tomas\Documents\GitHub\songfy\project\metals.sbt
+2023.08.19 17:13:11 INFO  compiling songfy (1 scala source)
+2023.08.19 17:13:11 INFO  time: compiled songfy in 0.13s
+2023.08.19 17:13:49 INFO  compiling songfy (1 scala source)
+2023.08.19 17:13:49 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:13:49 INFO  time: compiled songfy in 0.71s
+2023.08.19 17:14:10 INFO  compiling songfy (1 scala source)
+2023.08.19 17:14:10 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:14:10 INFO  time: compiled songfy in 0.68s
+2023.08.19 17:14:36 INFO  compiling songfy (1 scala source)
+2023.08.19 17:14:36 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:14:36 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:38 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:42 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:45 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:45 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:47 INFO  compiling songfy (1 scala source)
+2023.08.19 17:14:47 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:14:47 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:49 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:49 INFO  compiling songfy (1 scala source)
+2023.08.19 17:14:49 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:14:49 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:52 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:52 INFO  compiling songfy (1 scala source)
+2023.08.19 17:14:52 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:14:52 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:14:54 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:00 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:01 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+ago 19, 2023 5:15:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/Object.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 26 more
+
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 INFO  compiling songfy (1 scala source)
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:10 INFO  time: compiled songfy in 0.12s
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+ago 19, 2023 5:15:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTÊNCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/tomas/AppData/Local/Coursier/cache/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip/jdk8u292-b10/src.zip%21/java/lang/Object.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:894)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:865)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:865)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:746)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:754)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:215)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1124)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:333)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 26 more
+
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:14 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:14 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:14 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:14 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:15 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:15 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:15 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:17 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:17 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:22 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:37 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:40 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:42 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:48 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:49 INFO  compiling songfy (1 scala source)
+2023.08.19 17:15:49 INFO  time: compiled songfy in 0.12s
+2023.08.19 17:15:49 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:50 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:51 INFO  compiling songfy (1 scala source)
+2023.08.19 17:15:51 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:15:51 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:15:53 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:01 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:02 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:03 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:04 WARN  Using indexes to guess the definition of textArea
+2023.08.19 17:16:04 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:06 INFO  compiling songfy (1 scala source)
+2023.08.19 17:16:07 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:16:06 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:16:06 INFO  time: compiled songfy in 0.69s
+2023.08.19 17:16:32 INFO  compiling songfy (1 scala source)
+2023.08.19 17:16:32 INFO  time: compiled songfy in 0.12s
+ago 19, 2023 5:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1772
+2023.08.19 17:16:48 INFO  compiling songfy (1 scala source)
+2023.08.19 17:16:48 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:16:48 INFO  time: compiled songfy in 0.66s
+2023.08.19 17:17:08 INFO  compiling songfy (1 scala source)
+2023.08.19 17:17:08 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:17:08 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:17:08 INFO  time: compiled songfy in 0.67s
+2023.08.19 17:17:35 INFO  compiling songfy (1 scala source)
+2023.08.19 17:17:35 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:17:35 INFO  time: compiled songfy in 0.66s
+2023.08.19 17:19:36 INFO  compiling songfy (1 scala source)
+2023.08.19 17:19:36 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:19:36 INFO  time: compiled songfy in 0.7s
+ago 19, 2023 5:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1951
+2023.08.19 17:19:43 INFO  compiling songfy (1 scala source)
+2023.08.19 17:19:43 INFO  time: compiled songfy in 0.12s
+2023.08.19 17:19:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:19:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:19:43 WARN  Using indexes to guess the definition of keys
+2023.08.19 17:19:44 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:19:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:19:43 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:19:46 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:07 INFO  compiling songfy (1 scala source)
+2023.08.19 17:20:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:06 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:07 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:20:07 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:09 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:13 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:15 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:15 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:17 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:19 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:20 INFO  compiling songfy (1 scala source)
+2023.08.19 17:20:20 INFO  time: compiled songfy in 0.1s
+2023.08.19 17:20:20 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:20:23 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:16 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:21 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:22 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:23 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:26 INFO  compiling songfy (1 scala source)
+2023.08.19 17:21:26 WARN  Could not load snapshot text for C:\Users\tomas\Documents\GitHub\songfy\src\main\scala\View.scala
+2023.08.19 17:21:26 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:21:26 INFO  time: compiled songfy in 0.66s
+2023.08.19 17:21:30 INFO  compiling songfy (1 scala source)
+2023.08.19 17:21:30 INFO  Deduplicating compilation of songfy from bsp client 'Metals 1.0.0' (since 32m 29.069s)
+2023.08.19 17:21:30 INFO  compiling songfy (1 scala source)
+2023.08.19 17:21:30 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:21:30 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:21:30 INFO  time: compiled songfy in 0.66s
+2023.08.19 17:23:04 INFO  compiling songfy (1 scala source)
+2023.08.19 17:23:04 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:23:04 INFO  time: compiled songfy in 0.63s
+2023.08.19 17:23:33 INFO  compiling songfy (1 scala source)
+2023.08.19 17:23:33 INFO  time: compiled songfy in 0.11s
+2023.08.19 17:23:41 INFO  compiling songfy (1 scala source)
+2023.08.19 17:23:41 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:23:41 INFO  time: compiled songfy in 0.65s
+ago 19, 2023 5:24:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:910)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:369)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:340)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:474)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.08.19 17:28:20 INFO  compiling songfy (1 scala source)
+2023.08.19 17:28:20 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.08.19 17:28:20 INFO  time: compiled songfy in 0.65s
