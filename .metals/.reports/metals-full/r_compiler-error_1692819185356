@@ -1,3 +1,10 @@
+scala.reflect.internal.Types$TypeError: illegal cyclic inheritance involving class SerialVersionUID
+occurred in the presentation compiler.
+
+action parameters:
+offset: 1919
+uri: file:///C:/Users/tomas/Documents/GitHub/songfy/src/main/scala/View.scala
+text:
 import scala.swing._
 import scala.swing.event._
 
@@ -8,16 +15,16 @@ class View extends MainFrame {
     lineWrap = true
     wordWrap = true
   }
-  /*listenTo(textArea.keys)
+  listenTo(textArea.keys)
   reactions += {
     case KeyPressed(_,c,_,_) => 
       playLastChar()
-  }*/
+  }
   
   val informationArea = new TextArea(){
     columns = 20
     lineWrap = true
-    wordWrap = true
+    wordwrap = true
     editable = false
     text = """
   * a ou a - nota lá
@@ -68,12 +75,12 @@ class View extends MainFrame {
     player.play(pattern)
   }
 
-/*  def playLastChar() {
-    val lastChar =  textArea.text.charAt(textArea.text.length() - 1).toString()
-    Console.println(lastChar)
+  def playLastChar() {
+    val lastChar =  textArea.text.substring(textArea.text.length() - 1)
+    Cons@@
     val pattern = builder.build(lastChar)
     player.play(pattern)
-  }*/
+  }
 
   def loadFile() {
     val fileHelper = new FileHelper
@@ -90,3 +97,8 @@ class View extends MainFrame {
     player.saveMidi(pattern, path)
   }
 }
+
+
+
+error stacktrace:
+
